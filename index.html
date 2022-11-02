@@ -20,7 +20,37 @@
 <body>
   <!-- CONTENEDOR PRINCIPAL -->
   <main class="container">
-   <img src="./design/desktop-design.jpg" alt="">
+    <!-- ZONA DE CONTENIDO LOGO Y TEXTOS-->
+    <div class="header_content">
+      <figure class="header_content_logo">
+        <img src="images/logo.svg" alt="logotipo">
+      </figure>
+      <section class="header_content_text">
+        <h1 class="header_content_title"><span>We are launching</span> soon!</h1>
+        <p class="header_content_subtitle">Subscribe and get notified</p>
+      </section>
+      <!-- ZONA DE FORMULARIO -->
+      <form action="#" class="formulario" id="form">
+        <input type="text" class="form_input" placeholder="Your email address..." id="email_input">
+        <input type="submit" value="Notify Me" class="form_submit_btn" id="submit_btn">
+        <span class="error_msg" id="error_msg"></span>
+      </form>
+    </div>
+    <!-- ZONA DE IMAGEN -->
+    <div class="content_image">
+      <figure>
+        <img src="images/illustration-dashboard.png" alt="ilustración">
+      </figure>
+    </div>
+    <!-- ZONA INFERIOR FOOTER REDES SOCIALES -->
+    <footer class="footer">
+      <div class="footer_redes">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+      </div>
+      <small class="copyright">&copy; Copyright Ping. All rights reserved.</small>
+    </footer>
   </main>
 </body>
 
